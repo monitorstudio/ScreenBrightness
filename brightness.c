@@ -44,7 +44,7 @@ void set_brightness(unsigned brightness)
 
         if(brightness > max_brightness)
         {
-                printf("E: '%u' is Larger then the Maximum value '%u'\n", brightness, get_max_brightness());
+                printf("E: '%u' is Larger then the Maximum value '%u'\n", brightness, max_brightness);
                 exit(127);
         }
 
